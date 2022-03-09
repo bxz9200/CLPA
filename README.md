@@ -11,9 +11,7 @@ Poisoning attacks are emerging threats to deep neural networks where the adversa
 ## Experiments using ImageNet dataset:
 
 * PyTorch, version 1.0.1
-
 * tqdm, numpy, scipy, and h5py
-
 * The ImageNet training set
 
 ## Experiments using CIFAR-10 dataset:
