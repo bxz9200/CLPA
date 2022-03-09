@@ -17,6 +17,6 @@ The ImageNet training set
 
 
 # Useful links
-Training BigGAN from scratch is time consuming, you can download a pre-trained BigGAN from the official repository of BigGAN at:
+Training BigGAN from scratch is time consuming, you can download a pre-trained BigGAN model from the official repository of BigGAN at:
 
 https://github.com/ajbrock/BigGAN-PyTorch
