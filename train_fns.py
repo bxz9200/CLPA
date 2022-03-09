@@ -23,11 +23,6 @@ pos = pos.reshape(pos.shape[0],pos.shape[2])
 neg = np.load("neg.npy")
 neg = neg.reshape(neg.shape[0],neg.shape[2])
 
-# pos = np.load("pos_logits_reps.npy")
-# pos = pos.reshape(pos.shape[0],pos.shape[2])
-# neg = np.load("neg_logits_reps.npy")
-# neg = neg.reshape(neg.shape[0],neg.shape[2])
-# print(pos.shape)
 
 extractor = models.vgg19(pretrained=True)
 
@@ -239,17 +234,6 @@ def GAN_training_function(G, D, GD, z_, y_, ema, state_dict, config):
         fake_img =normalize(center_crop(torch.nn.functional.interpolate(((G(z_, G.shared(y_))+1) / 2.), size=(256,256)), 224), mean_list, std_list)
 #         G_output = G(z_, G.shared(y_))
 
-#       fake_img = 255*((fake_img+1) / 2.)
-#       fake_img = torch.nn.functional.interpolate(fake_img, size=(256,256))
-#       fake_img = center_crop(fake_img,224)
-#       fake_img = normalize(fake_img, mean_list, std_list)
-#       print(fake_img.shape)
-#       fake_img = ((G_output+1) / 2.)
-#       fake_img = torch.nn.functional.interpolate(fake_img, size=(256,256))
-#       fake_img = center_crop(fake_img,224)
-#       fake_img = normalize(fake_img, mean_list, std_list)
-
-
 
       fake_img_labels = y_.detach().cpu().numpy()
       pos_reps = []
@@ -266,7 +250,6 @@ def GAN_training_function(G, D, GD, z_, y_, ema, state_dict, config):
       Generator_loss = losses.generator_loss(D_fake) / float(config['num_G_accumulations'])
       lat_loss = losses.latent_loss(latent_reps, pos_reps, neg_reps)
       G_loss = Generator_loss + lat_loss
-#       G_loss = Generator_loss
       G_loss.backward()
     
     # Optionally apply modified ortho reg in G
