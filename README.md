@@ -1,8 +1,5 @@
-# CLPA-Clean-Label-Poisoning-Availability-Attacks
+# CLPA: Clean-Label-Poisoning-Availability-Attacks
 This is the implementation of AAAI-22 paper: https://www.aaai.org/AAAI22Papers/AAAI-3872.ZhaoB.pdf
-
-The current repository contains codes for the ImageNet experiments. We are cleaning up the codes for CIFAR-10 experiments and will update soon.
-
 
 Poisoning attacks are emerging threats to deep neural networks where the adversaries attempt to compromise the models by injecting malicious data points in the clean training data. Poisoning attacks target either the availability or integrity of a model. The availability attack aims to degrade the overall accuracy while the integrity attack causes misclassification only for specific instances without affecting the accuracy of clean data. Although clean-label integrity attacks are proven to be effective in recent studies, the feasibility of clean-label availability attacks remains unclear. This paper, for the first time, proposes a clean-label approach, CLPA, for the poisoning availability attack. We reveal that due to the intrinsic imperfection of classifiers, naturally misclassified inputs can be considered as a special type of poisoned data, which we refer to as "natural poisoned data". We then propose a two-phase generative adversarial net (GAN) based poisoned data generation framework along with a triplet loss function for synthesizing clean-label poisoned samples that locate in a similar distribution as natural poisoned data. The generated poisoned data are plausible to human perception and can also bypass the singular vector decomposition (SVD) based defense. We demonstrate the effectiveness of our approach on CIFAR-10 and ImageNet dataset over a variety type of models.
 
@@ -28,7 +25,7 @@ We will add the bib information when the paper is published.
 * matplotlib 2.2.2
 
 # How to Run the Code
-
+The current repository contains codes for the ImageNet experiments. We are cleaning up the codes for CIFAR-10 experiments and will update soon.
 ## A quick start to run experiments on the ImageNet dataset
 To finetune a phase II GAN with the triplet loss, run:
 
