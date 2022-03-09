@@ -21,4 +21,4 @@ Training BigGAN from scratch is time consuming, you can download a pre-trained B
 
 https://github.com/ajbrock/BigGAN-PyTorch
 
-In our paper, we also used the pretrained BigGAN model (138k epochs) for the ImageNet experiments.
+In our paper, we also used the pretrained BigGAN model (138k G iters) for the ImageNet experiments.
