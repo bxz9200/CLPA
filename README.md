@@ -1,3 +1,4 @@
 # CLPA-Clean-Label-Poisoning-Availability-Attacks
 
-[GAN_Training_V2.pdf](https://github.com/bxz9200/CLPA-Clean-Label-Poisoning-Availability-Attacks/files/8211185/GAN_Training_V2.pdf)
+
+![image](https://user-images.githubusercontent.com/36553004/157361659-0dda060d-5b6e-4e10-a239-0f45c8f3c49f.png)
