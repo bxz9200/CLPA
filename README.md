@@ -8,6 +8,8 @@ Poisoning attacks are emerging threats to deep neural networks where the adversa
 
 ![image](https://user-images.githubusercontent.com/36553004/157361659-0dda060d-5b6e-4e10-a239-0f45c8f3c49f.png)
 
+# Citation
+We will add the bib information when the paper is published.
 
 # Requirements
 ## Experiments using ImageNet dataset:
@@ -47,8 +49,6 @@ https://github.com/ajbrock/BigGAN-PyTorch
 
 In our paper, we also used the pretrained BigGAN model (138k G iters) for the ImageNet experiments.
 
-# Citation
-We will add the bib information when the paper is published.
 
 # To Do List
 - We will add codes for CIFAR10 experiments soon.
