@@ -17,6 +17,8 @@ Poisoning attacks are emerging threats to deep neural networks where the adversa
 * The ImageNet training set
 
 # How to Run the Code
+
+## A quick start
 To finetune a phase II GAN with the triplet loss, run:
 
 ```
