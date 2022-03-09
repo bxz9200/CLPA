@@ -19,11 +19,11 @@ The ImageNet training set
 # How to Run the Code
 To finetune a phase II GAN with the triplet loss, run:
 
-sh scripts/utils/launch_MyBigGAN.sh
+$sh scripts/utils/launch_MyBigGAN.sh
 
 To generate poisoned dataset, run:
 
-sh scripts/utils/sample_finetune.sh
+$sh scripts/utils/sample_finetune.sh
 
 Please refer to the official repository of BigGAN if you want to play with different training settings or try different parameters.
 
@@ -42,3 +42,5 @@ We will add the bib information when the paper is published.
 
 # Acknowledgement
 This work is partially supported by the National Science Foundation award 2047384.
+
+
