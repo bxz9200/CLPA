@@ -8,13 +8,13 @@ Poisoning attacks are emerging threats to deep neural networks where the adversa
 
 
 # Requirements
-For ImageNet dataset:
+## For ImageNet dataset:
 
-PyTorch, version 1.0.1
+* PyTorch, version 1.0.1
 
-tqdm, numpy, scipy, and h5py
+* tqdm, numpy, scipy, and h5py
 
-The ImageNet training set
+* The ImageNet training set
 
 # How to Run the Code
 To finetune a phase II GAN with the triplet loss, run:
