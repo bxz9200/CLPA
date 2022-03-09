@@ -8,13 +8,22 @@ Poisoning attacks are emerging threats to deep neural networks where the adversa
 
 
 # Requirements
-## For ImageNet dataset:
+## Experiments using ImageNet dataset:
 
 * PyTorch, version 1.0.1
 
 * tqdm, numpy, scipy, and h5py
 
 * The ImageNet training set
+
+## Experiments using CIFAR-10 dataset:
+
+* Keras 2.2.5
+* Keras-Applications 1.0.8
+* Keras-Preprocessing 1.1.0
+* Tensorflow 1.15.0
+* numpy 1.18.1
+* matplotlib 2.2.2
 
 # How to Run the Code
 
