@@ -34,7 +34,7 @@ sh scripts/utils/launch_MyBigGAN.sh
 To generate poisoned dataset, run:
 
 ```
-$sh scripts/utils/sample_finetune.sh
+sh scripts/utils/sample_finetune.sh
 ```
 Please refer to the official repository of BigGAN if you want to play with different training settings or try different parameters.
 
