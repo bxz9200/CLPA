@@ -50,7 +50,7 @@ In our paper, we also used the pretrained BigGAN model (138k G iters) for the Im
 # To Do List
 - We will add codes for CIFAR10 experiments soon.
 
-# Acknowledgement
+# Acknowledgements
 This work is partially supported by the National Science Foundation award 2047384.
 
 
