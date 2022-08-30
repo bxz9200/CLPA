@@ -6,7 +6,20 @@ Poisoning attacks are emerging threats to deep neural networks where the adversa
 ![image](https://user-images.githubusercontent.com/36553004/157361659-0dda060d-5b6e-4e10-a239-0f45c8f3c49f.png)
 
 # Citation
-We will add the bib information when the paper is published.
+@inproceedings{DBLP:conf/aaai/ZhaoL22a,
+  author    = {Bingyin Zhao and
+               Yingjie Lao},
+  title     = {{CLPA:} Clean-Label Poisoning Availability Attacks Using Generative
+               Adversarial Nets},
+  booktitle = {Thirty-Sixth {AAAI} Conference on Artificial Intelligence, {AAAI}
+               2022, Thirty-Fourth Conference on Innovative Applications of Artificial
+               Intelligence, {IAAI} 2022, The Twelveth Symposium on Educational Advances
+               in Artificial Intelligence, {EAAI} 2022 Virtual Event, February 22
+               - March 1, 2022},
+  pages     = {9162--9170},
+  publisher = {{AAAI} Press},
+  year      = {2022}
+}
 
 # Requirements
 ## Experiments using ImageNet dataset:
