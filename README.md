@@ -6,6 +6,7 @@ Poisoning attacks are emerging threats to deep neural networks where the adversa
 ![image](https://user-images.githubusercontent.com/36553004/157361659-0dda060d-5b6e-4e10-a239-0f45c8f3c49f.png)
 
 # Citation
+```
 @inproceedings{DBLP:conf/aaai/ZhaoL22a,
   author    = {Bingyin Zhao and
                Yingjie Lao},
@@ -20,6 +21,7 @@ Poisoning attacks are emerging threats to deep neural networks where the adversa
   publisher = {{AAAI} Press},
   year      = {2022}
 }
+```
 
 # Requirements
 ## Experiments using ImageNet dataset:
