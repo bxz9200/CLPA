@@ -25,12 +25,12 @@ Poisoning attacks are emerging threats to deep neural networks where the adversa
 # How to Run the Code
 The current repository contains codes for the ImageNet experiments. We are cleaning up the codes for CIFAR-10 experiments and will update soon.
 ## A quick start to run experiments on the ImageNet dataset
-To finetune a phase II GAN with the triplet loss, run:
+To fine-tune a phase II GAN with the triplet loss, run:
 
 ```
 sh scripts/utils/launch_MyBigGAN.sh
 ```
-To generate poisoned dataset, run:
+To generate a poisoned dataset, run the following:
 
 ```
 sh scripts/utils/sample_finetune.sh
@@ -38,18 +38,18 @@ sh scripts/utils/sample_finetune.sh
 Please refer to the official repository of BigGAN if you want to play with different training settings or try different parameters.
 
 # Useful links
-Training BigGAN from scratch is time consuming, you can download a pre-trained BigGAN model from the official repository of BigGAN at:
+Training BigGAN from scratch is time-consuming. You can download a pre-trained BigGAN model from the official repository of BigGAN at:
 
 https://github.com/ajbrock/BigGAN-PyTorch
 
-In our paper, we also used the pretrained BigGAN model (138k G iters) for the ImageNet experiments.
+In our paper, we also used the pre-trained BigGAN model (138k G iters) for the ImageNet experiments.
 
 
 # To Do List
 - We will add codes for CIFAR10 experiments soon.
 
 # Acknowledgements
-This work is partially supported by the National Science Foundation award 2047384.
+This work is partially supported by the National Science Foundation Award 2047384.
 
 
 # Citation
